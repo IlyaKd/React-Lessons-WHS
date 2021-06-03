@@ -1,0 +1,9 @@
+.wrap {
+    margin: auto;
+    width: 600px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}

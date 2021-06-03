@@ -1,0 +1,25 @@
+body {
+    padding-top: 36px;
+    background: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.wrap {
+    display: grid;
+    grid-template-areas: 'sidebar ... content content';
+    margin: auto;
+    width: 750px;
+}

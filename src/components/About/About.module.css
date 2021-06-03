@@ -1,0 +1,56 @@
+p {
+    margin-top: 0;
+}
+
+ol {
+    margin-bottom: 0;
+}
+
+li:not(:last-child) {
+    margin: 10px 0;
+}
+
+.wrap {
+    margin: auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    width: 550px;
+    padding: 37px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+ }
+
+.title {
+
+    color: #333;
+}
+
+.link {
+    color: #333;
+    text-decoration: inherit;
+}
+
+.preloader {
+    margin: auto;
+    height: 124px;
+    width: 124px;
+    background: url(preloader.gif);
+    background-size: contain;
+  }
+
+.error {
+    text-align: center;
+}
+
